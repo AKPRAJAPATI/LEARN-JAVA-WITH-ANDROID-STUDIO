@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.javadevelopementapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JavaDevelopementApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".sqliteDatabase.sqliteDatbaseOutput"
+            android:exported="false" />
+        <activity
+            android:name=".sqliteDatabase.sqliteDatabaseRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".T_speech_to_text.text_to_speech_output"
+            android:exported="false" />
+        <activity
+            android:name=".T_speech_to_text.textToSpeechRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".T_text_to_speech.take_text_to_speechRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".T_text_to_speech.text_to_speechOutput"
+            android:exported="false" />
+        <activity
+            android:name=".T_take_video.take_video_output"
+            android:exported="false" />
+        <activity
+            android:name=".T_take_video.take_video_Recyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".T_take_photo.take_photo_output"
+            android:exported="false" />
+        <activity
+            android:name=".T_take_photo.take_photoRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".popUpMenu.popUpMenuOutput"
+            android:exported="false" />
+        <activity
+            android:name=".popUpMenu.popUpMenuRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Option_menu.OptionMenuRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Option_menu.OptionMenuOutput"
+            android:exported="false" />
+        <activity
+            android:name=".whatsappActivity.whatsappOutput"
+            android:exported="false" />
+        <activity
+            android:name=".copyActivity.copyRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".copyActivity.copyOutput"
+            android:exported="false" />
+        <activity
+            android:name=".whatsappActivity.whatsappRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".shareActivity.shareOutput"
+            android:exported="false" />
+        <activity
+            android:name=".shareActivity.shareRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".rateUsActivity.rateUsOutput"
+            android:exported="false" />
+        <activity
+            android:name=".ContentMenu.contentMenuRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".ContentMenu.ContentMenuOutput"
+            android:exported="false" />
+        <activity
+            android:name=".rateUsActivity.rateUsRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".valuePassActivity.valueVassOutput"
+            android:exported="false" />
+        <activity
+            android:name=".valuePassActivity.valuepassActivityRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".ImplictIntent.EmplictOutput"
+            android:exported="false" />
+        <activity
+            android:name=".ImplictIntent.EmplictRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".ExplictIntent.ExplictRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".ExplictIntent.ExplictOutput"
+            android:exported="false" />
+        <activity
+            android:name=".emailActivity.EmailOutput"
+            android:exported="false" />
+        <activity
+            android:name=".emailActivity.EmailRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".chooseImageActivity.chooseImageOutput"
+            android:exported="false" />
+        <activity
+            android:name=".chooseImageActivity.chooseImageRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Toasts.color_Toast"
+            android:exported="false" />
+        <activity
+            android:name=".Toasts.colorToastRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Toasts.positionToast"
+            android:exported="false" />
+        <activity
+            android:name=".Toasts.simple_toast_recyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Toasts.Simple_Toast_output"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButton.RadioButtonOutput"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButton.RadioButtonRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".RatingBar.RatingbarOutput"
+            android:exported="false" />
+        <activity
+            android:name=".RatingBar.RatingBarRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Scrollview.ScrollviewOutput"
+            android:exported="false" />
+        <activity
+            android:name=".Scrollview.ScrollViewRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".SeekBar.SeekbarOutput"
+            android:exported="false" />
+        <activity
+            android:name=".SeekBar.SeekbarRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".TextSiwtcher.textSwitcherOutput"
+            android:exported="false" />
+        <activity
+            android:name=".TextSiwtcher.textSwitcherRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Spinner.SpinnerOutput"
+            android:exported="false" />
+        <activity
+            android:name=".Spinner.SpinnerRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxes.checkBoxOutput"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxes.CheckBoxRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".ImageButton.ImageButtonOutput"
+            android:exported="false" />
+        <activity
+            android:name=".ImageButton.ImageButtonRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Switchs.SwitchOutput"
+            android:exported="false" />
+        <activity
+            android:name=".Switchs.SwitchRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".TongleButton.TongleRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".TongleButton.TongleOutput"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonDirectory.ButtonOutput"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonDirectory.ButtonRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextDirectory.Edit_recyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextDirectory.EditOutPut_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Output_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity.Show_Code_List_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity.TextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageSwitcher.ImageSwitcherRecyclerview"
+            android:exported="true" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImageSwitcher.ImageSwitcherOutput"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>
